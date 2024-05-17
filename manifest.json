@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "ついったー検索くん",
+  "version": "1.0.2",
+  "description": "Search selected text on Twitter from the context menu.",
+  "permissions": ["contextMenus"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
